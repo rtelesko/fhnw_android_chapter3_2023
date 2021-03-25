@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lottery Info</string>
+    <string name="fetchInfo">Fetch Info</string>
+    <string name="submit">Submit</string>
+    <string name="swiss">Swiss Lottery</string>
+    <string name="euro">Euro Millions</string>
+</resources>

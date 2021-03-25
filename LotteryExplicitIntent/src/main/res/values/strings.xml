@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lottery ExplicitIntent</string>
+    <string name="name">Your Name:</string>
+    <string name="tips">Choose number of tips:</string>
+    <string name="send">Send Data</string>
+    <string name="back">Go back</string>
+    <string-array name="number_tips">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

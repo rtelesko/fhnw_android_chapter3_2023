@@ -1,0 +1,11 @@
+include ':MyMessenger'
+include ':LotteryOneTipStorage'
+include ':LotteryInfo'
+include ':LotteryImplicitIntentReceiver'
+include ':LotteryImplicitIntent'
+include ':LotteryExplicitIntent'
+include ':LotteryCamera'
+include ':LotteryButtonNameStorage'
+include ':LotteryBluetooth'
+include ':app'
+rootProject.name = "Chapter3"

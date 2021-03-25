@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lottery Bluetooth</string>
+    <string name="on">Turn on</string>
+    <string name="off">Turn off</string>
+    <string name="visible">Get visible</string>
+    <string name="list">List Devices</string>
+    <string name="header">Paired Devices</string>
+</resources>

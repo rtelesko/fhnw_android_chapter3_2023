@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lotterycamera">
+    <!-- Bug in camera app: https://stackoverflow.com/questions/60023777/camera-crashing-on-android-10-when-launching-intent
+    Just add fake permission: Here: BLAH
+    Works only with an AVD API 29 !!! -->
+    <uses-permission android:name="BLAH" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

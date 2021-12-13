@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 // Start the activity with camera_intent and request pic id
                 if (camera_intent.resolveActivity(getPackageManager()) != null)
                     startActivityForResult(camera_intent, PIC_ID);
-                Log.d("ImplicitIntent", "Can't handle this!");
+                else
+                    Log.d("ImplicitIntent", "Can't handle this!");
             }
         });
     }

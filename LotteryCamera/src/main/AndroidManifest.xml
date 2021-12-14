@@ -3,7 +3,7 @@
     package="com.example.lotterycamera">
     <!-- Bug in camera app: https://stackoverflow.com/questions/60023777/camera-crashing-on-android-10-when-launching-intent
     Just add fake permission: Here: BLAH
-    Works only with an AVD API 29 !!! -->
+    Works with an AVD API 29 ! -->
     <uses-permission android:name="BLAH" />
     <application
         android:allowBackup="true"

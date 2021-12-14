@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lotteryimplicitintentreceiver">
-
+    <!-- The application
+    Works with an AVD API 29 ! -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +29,7 @@
                 Without it, clicking a link in a browser cannot resolve to your app.
                 -->
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="http"/>
+                <data android:scheme="http" />
             </intent-filter>
         </activity>
     </application>

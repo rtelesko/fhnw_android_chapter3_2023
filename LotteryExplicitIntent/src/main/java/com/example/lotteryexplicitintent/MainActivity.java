@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         etNamePlayer.getText().clear();
+        spNumberTips.setSelection(0);
     }
 
     public void sendData(View view) {

@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         String url = "http://www.swisslos.ch";
 
         // Parse the URI and create the intent
+        // https://stackoverflow.com/questions/6130216/do-i-need-to-set-internet-permission-for-opening-a-website-in-android
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
 

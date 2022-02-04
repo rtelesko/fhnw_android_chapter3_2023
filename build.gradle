@@ -15,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         google()
+        mavenCentral()  // JCenter will be completely shut down on February 1, 2022
         jcenter()
     }
 }

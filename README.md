@@ -1,1 +1,1 @@
-"My Messenger" taken from Head First Android Development von Dawn Griffiths (2017)
+"MyMessenger" taken from Head First Android Development von Dawn Griffiths (2017)

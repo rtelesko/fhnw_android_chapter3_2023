@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
         time = lottery.getString("time", null);
         /* default value for time = null
         If the variable was never accessed by the user or was never created,
-        the system will set the default value as value and if you or changed
-        this value, the default value is ignored.
+        the system will set the default value as value and if you changed this value,
+        the default value is ignored.
         */
         if (time != null) {      // SharedPreferences not empty
             // Show result in TextView "tvResult"

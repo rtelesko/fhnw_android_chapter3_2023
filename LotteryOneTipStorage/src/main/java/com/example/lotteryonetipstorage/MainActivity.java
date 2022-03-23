@@ -87,8 +87,10 @@ public class MainActivity extends AppCompatActivity {
             /* commit() writes the data synchronously (blocking the thread its called from). It then informs you about the success of the operation.
                apply() schedules the data to be written asynchronously. It does not inform you about the success of the operation.
             */
-            edit.commit();
-            Toast.makeText(getApplicationContext(), "Storage successful!", Toast.LENGTH_LONG).show();
+            if (edit.commit())
+                Toast.makeText(getApplicationContext(), "Storage successful!", Toast.LENGTH_LONG).show();
+            else
+                Toast.makeText(getApplicationContext(), "Storage not successful!", Toast.LENGTH_LONG).show();
         } else
             Toast.makeText(getApplicationContext(), "Nothing to store or numbers invalid!", Toast.LENGTH_LONG).show();
     }

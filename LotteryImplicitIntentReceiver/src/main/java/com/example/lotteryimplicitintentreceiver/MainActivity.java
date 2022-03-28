@@ -1,11 +1,11 @@
 package com.example.lotteryimplicitintentreceiver;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = intent.getData();
         if (uri != null) {
             String uri_string = getString(R.string.uri_label)
-                    + uri.toString();
+                    + uri;
             TextView tvURI = findViewById(R.id.tv_URIMessage);
             tvURI.setText(uri_string);
         }

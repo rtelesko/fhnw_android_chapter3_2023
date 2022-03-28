@@ -31,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onActivityResult(ActivityResult result) {
                         if (result.getResultCode() == AppCompatActivity.RESULT_OK) {
-                            Intent data = result.getData();
-                            String selection = data.getStringExtra("SELECTION");
+                            String selection = result.getData().getStringExtra("SELECTION");
                             if (selection.equals("Swiss Lottery"))
                                 tvResult.setText("Mode: Choose 6 numbers and 1 lucky number per tip\n" +
                                         "Draw: Every Wednesday and Saturday");

@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Clear old entry
-                tvName.setText("");
                 SharedPreferences.Editor editor = sharedpreferences.edit();
                 if (TextUtils.isEmpty(etName.getText().toString()))
                     Toast.makeText(getApplicationContext(), "Please enter a name!", Toast.LENGTH_SHORT).show();
@@ -56,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         btRetrieve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                etName.setText("");
                 String name = sharedpreferences.getString(Name, null);
                 if (name != null)
                     tvName.setText(name);

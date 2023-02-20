@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "ch.fhnw.chapter3"
         minSdkVersion 25
-        targetSdkVersion 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

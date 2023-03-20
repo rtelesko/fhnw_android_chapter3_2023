@@ -19,8 +19,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     ActivityResultLauncher<Intent> someActivityResultLauncher;
-    // Define the picture id
-    private static final int PIC_ID = 123;
     // GUI variables
     Button btCamera;
     ImageView ivPhoto;

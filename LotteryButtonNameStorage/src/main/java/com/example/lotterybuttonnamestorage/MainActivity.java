@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         btSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Clear old entry
                 SharedPreferences.Editor editor = sharedpreferences.edit();
                 if (TextUtils.isEmpty(etName.getText().toString()))
                     Toast.makeText(getApplicationContext(), "Please enter a name!", Toast.LENGTH_SHORT).show();
